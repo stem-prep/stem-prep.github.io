@@ -14,3 +14,6 @@ body {
       text-align:center;  /* centers wrapper content */
 }
 
+div#feedback {
+	font-size: 20px;
+}
