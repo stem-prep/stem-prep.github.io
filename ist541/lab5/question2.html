@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lab 5: Question 2</title>
+	<link href="css/koala.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+ 
+$(function(){
+	$("#option1").click( function(){
+         $("#feedback").html("<h2 style='color:red'> In another universe this might be true - a positron is an antimater particle! </h2>");
+                  $("#atom").css("display","none");
+});
+$("#option3").click( function(){
+                 $("#feedback").html("<h2 style='color:green'> Correct! Electrons are arranged within electron shells layered around the outside of the atom.</h2>");
+                 $("#atom").css("display","inline");
+});
+$("#option2, #option4").click( function(){
+             $("#feedback").html("<h2 style='color:red'> This particle is found in the nucleus! </h2>");
+    $("#atom").css("display","none");
+});
+
+ 
+});
+
+</script>
+
+</head>
+
+<body>
+		
+	<div id="wrapper">
+		<a href="question1.html">  Atom Diagram </a>
+	<a href="question2.html"> Check Your Knowledge! </a>
+	<br><hr><br>
+		<h1>Which supatomic particle is found moving around the outside of an atom?</h1>
+		<h3>Click on one of the following choices</h3>
+ 
+		<h2 id="option1" class="choices"> Positron </h2>
+		<h2 id="option2" class="choices"> Proton </h2>
+		<h2 id="option3" class="choices"> Electron </h2>
+		<h2 id="option4" class="choices"> Neutron </h2>
+ 
+		<div id="feedback"></div>
+		<img id="atom" src="img/atom.png" />
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: whitesmoke;
+}
+
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #blankatom {
+border: black 2px solid;
+}
+ 
+ #atom {
+display: none;
+border: black 2px solid;
+}
+
+.choices {
+cursor: pointer;
+}
+
+a {
+	padding: 15px;
+	margin: 20px;
+	font-size: 125%;
+	background-color:  teal; 
+	border-radius: 12px;
+	color:  black; 
+}
+
+a:hover {
+	font-size:130%;
+	background-color: darkslategray; 
+	border-radius: 12px;
+	color: lightseagreen; 
+}
+
