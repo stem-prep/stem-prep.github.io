@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	max-width: 960px;
+	margin: auto;
+	text-align: center;
+	background-color: whitesmoke;  
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  lightseagreen; 
+	color:  #191818; 
+}
+
+a:hover {
+	font-size:130%;
+	background-color: darkslategray; 
+	color: white; 
+}
+
+b {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  darkslategray; 
+	color:  white; 
+}
+
+#wrapper {
+	width:1000px;
+	margin:0 auto;    /* centers wrapper */
+}
+#wrapper1 {
+	width:710px;
+	padding: 15px;
+	margin:0 auto;    /* centers wrapper */
+	background-color: white;
+}
+
+.nav{
+	background-color: transparent;
+	margin: 1px;
+	padding: 1px;
+	font-size: 100%;
+	color:  blue;
+}
+
+.nav:hover{
+	background-color: transparent;
+	margin: 1px;
+	padding: 1px;
+	font-size: 100%;
+	color:  blue;
+}
+
+.button {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  lightgreen; 
+	color:  #191818;
+	border-color: #191818;
+	border-radius: 10px;
+	border-style: solid;
+}
+
+.button:hover {
+	font-size:125%;
+	background-color: orange; 
+	color: #191818; 
+}
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:10px;
+	text-align:left;
+	color: white;
+	font-size:16px;
+	background-color: darkslategray;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin-top:20px;
+
+ }
+
+.stepContent{ 
+	background-color: white;
+	padding:7px;
+	display: flex;
+	justify-content: center;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.stepDescription {
+	text-align:left;
+	width:40%;
+	padding:5px;
+}
+
+.stepImage {
+	width:55%;	
+	padding:5px;
+	text-align: center;
+}
+
+.warning {
+	background-color:#FBCEB8;
+	padding:15px;
+	border-radius:10px;
+}
+
+.material-icons {
+	color:darkorange;
+	font-size:2em;
+}
+
+img { 
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+}
+
+.logo {
+	margin: 50px;
+}
+.map {
+	border-radius: 0px;
+	box-shadow: 0 0 0 0 gray;
+}
+
+#about {
+      width:900px;
+      margin:0 auto;      /* centers wrapper */
+      text-align:left;  /* centers wrapper content */
+	text-indent: 50px;
+}
+
+#intro{
+	border: black 0px solid;
+}
+#intro_stars{
+	display:none;
+	border: black 0px solid;
+}
+
+#part1{
+	border: black 0px solid;
+}
+#part1_stars{
+	display:none;
+	border: black 0px solid;
+}
+
+#practice1{
+	border: black 0px solid;
+}
+#practice1_stars{
+	display:none;
+	border: black 0px solid;
+}
+
+#part2{
+	border: black 0px solid;
+}
+#part2_stars{
+	display:none;
+	border: black 0px solid;
+}
+
+#practice2{
+	border: black 0px solid;
+}
+#practice2_stars{
+	display:none;
+	border: black 0px solid;
+}
+
+#part3{
+	border: black 0px solid;
+}
+#part3_stars{
+	display:none;
+	border: black 0px solid;
+}
+
+
+
+
