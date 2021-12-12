@@ -24,14 +24,6 @@ a:hover {
 	color: white; 
 }
 
-b {
-	padding: 15px;
-margin: 3px;
-	font-size: 125%;
-	background-color:  darkslategray; 
-	color:  white; 
-}
-
 #wrapper {
 	width:1000px;
 	margin:0 auto;    /* centers wrapper */
@@ -40,20 +32,20 @@ margin: 3px;
 	float:left;
 	width:960px;
 	padding: 15px;
-	background-color: white;
+	background-color: whitesmoke;
 }
 
 #wrapper2 {
 	float:left;
 	width:450px;
 	padding: 15px;
-	background-color: white;
+	background-color: whitesmoke;
 }
 
 #wrapper3 {
 	width:960px;
-	padding: 50px;
-	background-color: white;
+	padding: 15px;
+	background-color: whitesmoke;
 
 }
 #wrapper4 {
@@ -63,43 +55,7 @@ margin: 3px;
 	padding-right: 50px;
 	padding-top: 0px;
 	padding-bottom: 0px;
-	background-color: white;
-}
-
-#border {
-	background-color: teal;
-}
-.nav{
-	background-color: transparent;
-	margin: 1px;
-	padding: 1px;
-	font-size: 100%;
-	color:  blue;
-}
-
-.nav:hover{
-	background-color: transparent;
-	margin: 1px;
-	padding: 1px;
-	font-size: 100%;
-	color:  blue;
-}
-
-.button {
-	padding: 15px;
-margin: 3px;
-	font-size: 125%;
-	background-color:  lightgreen; 
-	color:  #191818;
-	border-color: #191818;
-	border-radius: 10px;
-	border-style: solid;
-}
-
-.button:hover {
-	font-size:125%;
-	background-color: orange; 
-	color: #191818; 
+	background-color: whitesmoke;
 }
 
 img { 
@@ -110,9 +66,3 @@ box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 .logo {
 	margin: 50px;
 }
-
-
-
-@charset "utf-8";
-/* CSS Document */
-
